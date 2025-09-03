@@ -1,27 +1,35 @@
 <!doctype html>
 <html lang="en">
     <head>
-        <meta />
+        <meta charset="UTF-8">
         <!-- Кодировка -->
-        <meta />
+        <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
         <!-- Описание -->
         <title>Разгадай код</title>
     </head>
     <body>
         <h1>Исправьте атрибуты в коде</h1>
 
-        <a>Нажми на меня</a>
+        <a>href="https://example.com"</a>
 
-        <img />
+        <img src="https://example.com">
 
         <form>
-            <input />
-            <button>Отправить</button>
+            <input type="text"
+            placeholder="Введите имя">
+            <button type="submit">Отправить</button>
         </form>
 
-        <video></video>
+        <video controls>
+            <source src="video.mp4"
+            type="video/mp4">
+        </video>
 
-        <audio></audio>
+        <audio controls>
+            <source src="audio.mp3"
+            type="audio/mpeg">
+        </audio>
 
         <table>
             <tr>
@@ -30,6 +38,8 @@
             </tr>
         </table>
 
-        <iframe></iframe>
+        <iframe src="https://example.com"
+            width="600" height="400">
+        </iframe>
     </body>
 </html>
